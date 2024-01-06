@@ -1,0 +1,4 @@
+{
+  "cSpell.words": ["tailwindcss", "tanstack"],
+  "cSpell.ignorePaths": ["*-lock.*", "node_modules", ".vscode"]
+}
