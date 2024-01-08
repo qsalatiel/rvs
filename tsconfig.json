@@ -25,7 +25,7 @@
       "@/*": ["./src/*"],
       "@ui/*": ["./src/components/ui/*"]
     },
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "./node_modules/@lingui/macro/global"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
