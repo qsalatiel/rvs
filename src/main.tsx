@@ -4,6 +4,10 @@ import App from './App.tsx'
 import '@/config/theme.css'
 import '@/config/i18n.ts'
 
+import { dynamicActivate } from '@/config/i18n.ts'
+
+dynamicActivate('en')
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
