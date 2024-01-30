@@ -26,3 +26,7 @@ dist-ssr
 
 # i18n
 src/locales/**/*.js
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
